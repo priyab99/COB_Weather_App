@@ -1,0 +1,93 @@
+.container{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 10px;
+    background-color: rgb(83, 184, 224);
+
+}
+.top-bar{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.top-bar input{
+    display: flex;
+    width: 364px;
+    height: 78px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 400px;
+
+}
+.srch {
+    width: 40px; 
+    height: 40px; 
+  
+    margin-top: 20px;
+    margin-left: 10px;
+   
+  }
+  
+  
+  .search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    background-color: antiquewhite;
+  }
+
+/* .image{
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    padding-left: 180px;
+}*/
+.temperature{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 200;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+}
+.data-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+.element{
+    margin: auto;
+    direction: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+.data{
+    font-size: 34px;
+    font-weight: 400;
+}
+.text{
+    font-size: 20px;
+
+    font-weight: 400;
+}
